@@ -1,0 +1,12 @@
+div {
+    width: 300px;
+    height: 150px;
+    border:15px  solid rgb(25, 212, 181);
+    padding: 50px;
+    background-color: rgb(200, 80, 255);
+    margin: 20px;
+}
+h1 {
+    color: crimson;
+    text-align: center;
+}

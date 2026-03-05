@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.container{
+    display: flex;
+}
+.left, .right{
+    flex: 1;
+    padding: 20px;
+}
+
+.left{
+    background: #f4f4f4;
+}
+
+.right{
+    background: #ddd;
+}
+@media (max-width: 768px){
+
+    .container{
+        flex-direction: column;
+    }
+
+}
